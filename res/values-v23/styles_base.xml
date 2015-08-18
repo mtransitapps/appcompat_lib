@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 The Android Open Source Project
+<!--
+     Copyright (C) 2014 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,11 +16,7 @@
 -->
 
 <resources>
-    <!-- Default height of an action bar. -->
-    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
-    <!-- Default text size for action bar title.-->
-    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
-    <!-- Default text size for action bar subtitle.-->
-    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+
+    <style name="Base.Widget.AppCompat.Button.Colored" parent="android:Widget.Material.Button.Colored" />
 
 </resources>

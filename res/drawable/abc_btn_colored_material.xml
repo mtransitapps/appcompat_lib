@@ -14,12 +14,8 @@
      limitations under the License.
 -->
 
-<resources>
-    <!-- Default height of an action bar. -->
-    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
-    <!-- Default text size for action bar title.-->
-    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
-    <!-- Default text size for action bar subtitle.-->
-    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+<!-- Used as the canonical button shape. -->
 
-</resources>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/abc_btn_default_mtrl_shape" />
+</layer-list>
