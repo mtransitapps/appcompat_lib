@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2014 The Android Open Source Project
+<!-- Copyright (C) 2015 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,8 +14,7 @@
      limitations under the License.
 -->
 
+<!-- Definitions of layouts to be exposed as public -->
 <resources>
-
-    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="android:Widget.Material.Spinner.Underlined" />
-
+    <public type="layout" name="support_simple_spinner_dropdown_item"/>
 </resources>
